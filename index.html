@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODERS LOGIC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="main__container ">
+        <h1 class="main__title">CODERS LOGIC</h1>
+        <div class="score__board">
+            <span>POINTS</span>
+            <span class="points__container"></span>
+        </div>
+
+        <ul class="letters__container">
+            <li class="word__item"><button class="letter__button" value="C">C</button></li>
+            <li class="word__item"><button class="letter__button" value="O">O</button></li>
+            <li class="word__item"><button class="letter__button selected__letter" value="D">D</button></li>
+            <li class="word__item"><button class="letter__button" value="E">E</button></li>
+            <li class="word__item"><button class="letter__button" value="R">R</button></li>
+            <li class="word__item"><button class="letter__button" value="S">S</button></li>
+        </ul>
+        <div>
+            <input type="text" name="guess" class="user__word">
+            <div class="buttons__container ">
+                <button class="clear__button button">CLEAR</button>
+                <button class="send__button button">SEND</button>
+            </div>
+        </div>
+
+        <ol class="words__container">
+        </ol>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
